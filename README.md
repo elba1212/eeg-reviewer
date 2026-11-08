@@ -1,4 +1,4 @@
-# EEG Reviewer
+﻿# EEG Reviewer
 
 A local Windows desktop application for reviewing sleep EEG. It supports sleep-stage estimates, spike-wave candidate review, N2/N3 SWI summaries, possible-seizure screening when a compatible model is installed, artifact and stage review, electrode distribution summaries, and local report exports.
 
@@ -65,4 +65,3 @@ The build output is `dist\EEGReviewer\EEGReviewer.exe`. To install it under the 
 ## Git hygiene
 
 `desktop_data/`, model weights, build outputs, virtual environments, and caches are excluded by `.gitignore`. Do not add recordings, patient exports, reports, or workspace files to this repository. This folder does not include a project license; choose a license you are authorized to grant before inviting reuse or contributions. The optional upstream model is separately licensed and is not bundled here.
-
